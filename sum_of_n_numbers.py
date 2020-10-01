@@ -1,7 +1,5 @@
 n = int(input('Enter a limit:'))
 sum = 0
-i = 1
 for i in range(0,n):
-    i+=1
     sum=sum+i
-    print(sum)
+print(sum)
